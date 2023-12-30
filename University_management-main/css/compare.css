@@ -1,0 +1,444 @@
+
+.compare{
+    width: 100%;
+    background-color: #fff;
+}
+.compare form{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.compare-section{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.compare form .left{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.compare form .right{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.compare form .left select{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f10606;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    background: #ffffff;
+    color: #000000;
+    font-weight: 600;
+}
+.compare form .right select{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f10606;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    background: #ffffff;
+    color: #000000;
+    font-weight: 600;
+}
+.compare form .left select option{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f10606;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    background: #c7c6c5;
+    color: #000000;
+    font-weight: 600;
+}
+.compare form .right select option{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f10606;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    background: #c7c6c5;
+    color: #000000;
+    font-weight: 600;
+}
+.compare form button{
+    width: 1175px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #f10606;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+.process-product{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+}
+.process-product .frist-product{
+    width: 50%;
+    height: 850px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px 0px rgb(250, 133, 0);
+     border: 2px solid #ff0000;
+     background: #979595;
+}
+.process-product .frist-product .process-card{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.process-product .frist-product .process-card .process-card-txt{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.process-product .frist-product .process-card .process-card-txt h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #0509ff;
+    margin-bottom: 10px;
+   text-align: center;
+
+}
+.process-card-txt h1{
+    color: #f10606;
+    font-weight: 600;
+}
+.process-product .frist-product .process-card .process-card-txt p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+    background: #ffffff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}
+.process-product .frist-product .process-card a {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    background: #f19f06;
+    border-radius: 15px;
+}
+
+.wish-card{
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid #f10606;
+}
+.wish-card table{
+    text-align: center;
+    width: 100%;
+}
+.wish-card table thead th{
+    padding: 1.5rem;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    background-color: #f1a20e;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.wish-card table tbody td{
+    padding: 1.5rem;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    
+}
+.wish-card table tbody td img{
+    width: 100px;
+    height: 100px;
+}
+.wish-card table tbody td a{
+    color: #10273a;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.wish-card table tbody td a:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+.wish-card table tbody td .fa-trash{
+    color: #ff0000;
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+.rivew-card{
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid #f10606;
+    
+}
+.rivew-card .r-card{
+   
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f1a20e;
+    border: 1px solid #000000;
+}
+.admission-table{
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid #f10606;
+
+}
+.admission-table table{
+    text-align: center;
+    width: 100%;
+}
+.admission-table table thead th{
+    padding: 1.5rem;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    background-color: #f1a20e;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.admission-table table tbody td{
+    padding: 1.5rem;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    
+}
+.admission-table table tbody td .link{
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    background: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+    
+  
+}
+:root {
+    /* Colors */
+    --brand-color: hsl(46, 100%, 50%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    /* Fonts */
+    --font-title: "Montserrat", sans-serif;
+    --font-text: "Lato", sans-serif;
+  }
+.review-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+  place-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+}
+.review-box .flow > * + * {
+    margin-top: var(--flow-space, 1em);
+  }
+  
+  /* CARD COMPONENT */
+  
+  .review-box .card {
+    display: grid;
+    place-items: center;
+    width: 80vw;
+    max-width: 21.875rem;
+    height: 28.125rem;
+    overflow: hidden;
+    border-radius: 0.625rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+  }
+
+  .review-box .card > * {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  
+  .review-box .card__background {
+    
+    width: 100%;
+    height: 100%;
+  }
+  
+  .review-box .card__content {
+    --flow-space: 0.9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+    height: 55%;
+    padding: 12% 1.25rem 1.875rem;
+    background: linear-gradient(
+      180deg,
+      hsla(0, 0%, 0%, 0) 0%,
+      hsla(0, 0%, 0%, 0.3) 10%,
+      hsl(0, 0%, 0%) 100%
+    );
+  }
+  
+  .review-box .card__content--container {
+    --flow-space: 1.25rem;
+  }
+  
+  .review-box .card__title {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+     /* Prefijo necesario para Firefox  */
+     color: #ffffff;
+  }
+  
+  .card__title::after {
+    content: "";
+    position: absolute;
+    height: 0.3125rem;
+    width: calc(100% + 1.25rem);
+    bottom: calc((1.25rem - 0.5rem) * -1);
+    left: -1.25rem;
+    background-color: #f1a20e;
+  }
+  .review-box .card__description {
+    color: #ffffff;
+  }
+  .review-box .card__button {
+    padding: 0.75em 1.6em;
+    width: fit-content;
+    width: -moz-fit-content; /* Prefijo necesario para Firefox  */
+    font-variant: small-caps;
+    font-weight: bold;
+    border-radius: 0.45em;
+    border: none;
+    background-color: var(--brand-color);
+    font-family: var(--font-title);
+    font-size: 1.125rem;
+    color: var(--black);
+    text-decoration: none;
+  }
+  
+  .card__button:focus {
+    outline: 2px solid black;
+    outline-offset: -5px;
+  }
+  
+  @media (any-hover: hover) and (any-pointer: fine) {
+    .card__content {
+      transform: translateY(62%);
+      transition: transform 500ms ease-out;
+      transition-delay: 500ms;
+    }
+  
+    .card__title::after {
+      opacity: 0;
+      transform: scaleX(0);
+      transition: opacity 1000ms ease-in, transform 500ms ease-out;
+      transition-delay: 500ms;
+      transform-origin: right;
+    }
+  
+    .card__background {
+      transition: transform 500ms ease-in;
+    }
+  
+    .card__content--container > :not(.card__title),
+    .card__button {
+      opacity: 0;
+      transition: transform 500ms ease-out, opacity 500ms ease-out;
+    }
+  
+    .card:hover,
+    .card:focus-within {
+      transform: scale(1.05);
+      transition: transform 500ms ease-in;
+    }
+  
+    .card:hover .card__content,
+    .card:focus-within .card__content {
+      transform: translateY(0);
+      transition: transform 500ms ease-in;
+    }
+  
+    .card:focus-within .card__content {
+      transition-duration: 0ms;
+    }
+  
+    .card:hover .card__background,
+    .card:focus-within .card__background {
+      transform: scale(1.3);
+    }
+  
+    .card:hover .card__content--container > :not(.card__title),
+    .card:hover .card__button,
+    .card:focus-within .card__content--container > :not(.card__title),
+    .card:focus-within .card__button {
+      opacity: 1;
+      transition: opacity 500ms ease-in;
+      transition-delay: 1000ms;
+    }
+  
+    .card:hover .card__title::after,
+    .card:focus-within .card__title::after {
+      opacity: 1;
+      transform: scaleX(1);
+      transform-origin: left;
+      transition: opacity 500ms ease-in, transform 500ms ease-in;
+      transition-delay: 500ms;
+    }
+  }
+  
+  
