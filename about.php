@@ -49,7 +49,7 @@
 
           <div class="col-md-6 py-3 py-md-0">
             <div class="card">
-              <img src="./images/dhaka_university_01.png" alt="">
+              <img src="./images/Weekend-Programme-at-Jahangirnagar-University.jpg" alt="">
             </div>
           </div>
 

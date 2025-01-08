@@ -158,7 +158,7 @@
         </div>
 
         <div class="about">
-            <h2 class="title2">Admission Dateline</h2>
+            <h2 class="title2">Admission Deadline</h2>
             <?php 
                 include_once 'config.php';
                 $id = $_GET['id'];
